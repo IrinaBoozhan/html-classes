@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Форма входа</title>
+		<style>
+			body{
+				font-family: arial;
+			}
+			.in{
+				width: 200px;
+			}	
+			textarea{
+				height: 45px;
+			}		
+
+		</style>
+	</head>
+	<body >
+		<h1> Регистрация</h1>
+		<form name="first-form" action="#">
+	  		<div>Ваш логин (email):</div>
+	    		<input  type="email" name="Login" class="in">
+	    	<div>Пароль:</div>
+	     		<input type="password" name="Password" class="in">
+	     	<div>Информация о себе:</div>
+	     		<textarea name="some-text" class="in" ></textarea>
+	     	<div>
+	     		<input type="checkbox" id="subscribe" checked>
+	     		<label for="subscribe">
+	     			<span>Подписаться на рассылку</span>
+	     		</label>
+	     	</div>
+	     		<input type="submit" value="Зарегистрироваться">
+    	</form>
+	</body>
+</html>
