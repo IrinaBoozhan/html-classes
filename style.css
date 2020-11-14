@@ -1,0 +1,31 @@
+table {
+       border-collapse: collapse; 
+      }
+
+ td { width: 160px;
+ 		background-color: #D2D9C9;
+ 	 	border: 2px solid black;
+ 	 	vertical-align: top;
+ 	 }
+
+td + td {	
+			background-color: #b4b4b4;
+			width: 360px;
+			}
+
+td > p {
+			margin-block-start: 2px;
+		 } 
+
+input[type=text], 
+input[type=password], 
+input[type=submit], 
+input[type=reset], 
+select{
+		  width:160px;
+		}
+		
+hr {
+	width: 528px;
+	margin-left: 0;
+	}
