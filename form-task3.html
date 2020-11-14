@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Task3</title>		
+	</head>
+	<body>
+		<form name="MyForm" action="#" method="#">
+			<div>
+				<label for="name">Укажите имя:</label>
+		  		<input type="text" id="name" placeholder="Имя">
+		   </div>
+		   <br>
+		   <div>
+				<label for="surname">Укажите фамилию:</label>
+		  		<input type="text" id="surname" placeholder="Фамилия">
+		   </div>
+		   <div>
+		   	<p>Пол:</p>
+				<label for="sex_m">М</label>
+		  		<input type="radio" id="sex_m" checked name="Пол">
+		  		<label for="sex_f">Ж</label>
+		  		<input type="radio" id="sex_f"  name="Пол">
+		   </div>
+		   <div>
+		   	<p>Владение языками:</p>
+		   	<div>
+					<input type="checkbox" id="lang_r">
+					<label for="lang_r">Русский</label>
+				</div>
+			  	<div>
+			  		<input type="checkbox" id="lang_b">
+			  		<label for="lang_b">Белорусский</label>
+			  	</div>
+			  	<div>
+			  		<input type="checkbox" id="lang_e">
+			  		<label for="lang_e">Английский</label>
+			  	</div>
+		  		</div>
+		   <div>
+				<p>Страна проживания:</p>
+				   <p>
+				  		<input list="character">
+				   	<datalist id="character">
+					   	<option value="Беларусь"></option>
+					    	<option value="Россия"></option>
+					    	<option value="Польша"></option>
+					    	<option value="Украина"></option>
+					    	<option value="Литва"></option>
+					    	<option value="Латвия"></option>
+					    	<option value="США"></option>
+				   	</datalist>
+				   </p>
+		   </div>
+		   <div><p>Загрузите фото</p></div>
+				<input type="file" id="photo">
+		   
+		</form>
+	</body>
+</html>
