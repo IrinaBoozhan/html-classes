@@ -1,0 +1,50 @@
+
+form {
+	width: 330px;
+	background-color: #0790ce;
+	border: 3px solid #046DB2;
+	font-family: Arial;
+	color: white;
+	padding: 20px;
+	font-size: 16px;
+}
+
+.inline {
+		display: inline-block;
+		margin-right: 20px;
+			}
+
+div > div {
+	margin-top:25px;
+}
+
+input[type=password] {
+	width: 130px;
+}
+
+input[type=email] {
+	width: 284px;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	background-color: #ffdb58;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+ p {
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+hr {
+	width: 368px;
+	margin-left: -20px;
+	}
+
+
+
+
+
